@@ -1,3 +1,7 @@
 body {
     background: #aaaaaa;
 }
+
+img {
+    resize: 20;
+}
