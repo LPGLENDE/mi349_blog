@@ -3,12 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conatact Me!</title>
+    <title>Contact Me!</title>
     <link rel="stylesheet" href="contact_screen.css">
 </head>
 
 <body>
-    <h1>Contact Me!</h1>
-    <a href="index.html">Homepage</a> <a href="about.html">About Me!</a>
+    <header>
+    <h1>MI-349 Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage!</a></li>
+                <li><a href="about.html">About Me!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact-form">
+        <h2>Contact Me!</h2>
+        <form>
+            <p>
+                <label>Name:
+                <input type="text">
+                </label>
+            </p>
+            <p>
+                <label>Email address:
+                <input type="email">
+                </label>    
+            </p>
+            <p>
+                <label>Reason for Contact:
+                <input list="contact-reasons">
+                <datalist id="contact-reasons">
+                    <option value="Saying Hi."></option>
+                    <option value="Looking for a Contractor."></option>
+                    <option value="Interested in an Interview."></option>
+                </datalist>
+                </label>
+            </p>
+            <p>
+                <label>Any Comments:
+                <textarea name="comment" rows="10" cols="40"></textarea>
+                </label>
+            </p>
+            <p>
+                <button>Submit Info</button>
+            </p>
+        </form>
+    </section>
 </body>
 </html>
