@@ -1,0 +1,44 @@
+html {
+    background: #4b4b4b;
+
+}
+
+body {
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242424;
+    margin: 40px;
+    padding: 40px;
+}
+
+h1 {
+   font-size: 3em;
+   margin: 0;
+}
+
+h2 {
+    font-family: 2.25em;
+}
+
+p{
+
+}
+
+#blog {
+    line-height: 1.5em;
+    border-top: #4b4b4b dashed 2px;
+}
+
+.blog-post {
+    border-bottom: #4b4b4b dashed 2px ;
+}
+
+table {
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
