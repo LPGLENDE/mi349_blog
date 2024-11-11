@@ -7,8 +7,6 @@ body {
     background: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     color: #242424;
-    margin: 40px;
-    padding: 40px;
 }
 
 h1 {
@@ -20,13 +18,10 @@ h2 {
     font-family: 2.25em;
 }
 
-p{
-
-}
-
 #blog {
     line-height: 1.5em;
-    border-top: #4b4b4b dashed 2px;
+    margin: 0px;
+    padding: 40px;
 }
 
 .blog-post {
@@ -35,10 +30,66 @@ p{
 
 table {
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-container {
+    max-width: 40px;
+    max-height: auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    background: #21cf86;
+    color: #ffffff;
+    margin: 0px;
+}
+
+
+.far-cry-scrn {
+    float: right;
+    width: 35%;
+    height: auto;
+    margin: 10px;
+}
+
+.origins-scrn {
+    float: left;
+    width: 35%;
+    height: auto;
+    margin: 10px;
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
+.about-post {
+    margin: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.movies-list {
+    margin: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.column {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
